@@ -1,0 +1,6 @@
+.slider__buttons {
+  position: absolute;
+  bottom: 0;
+  right: 85px;
+  z-index: 1;
+}
