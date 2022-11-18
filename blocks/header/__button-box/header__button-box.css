@@ -1,0 +1,6 @@
+.header__button-box {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-top: 45px;
+}
