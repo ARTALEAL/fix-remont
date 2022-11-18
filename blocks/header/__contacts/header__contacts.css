@@ -8,3 +8,7 @@
   right: 110px;
   z-index: 1;
 }
+
+.header__contacts:visited {
+  color: black;
+}

@@ -1,0 +1,8 @@
+.header__video-subtitle {
+display: block;
+font-family: MullerRegular, Arial, Helvetica, sans-serif;
+font-size: 21px;
+line-height: 143%;
+color: #F9572E;
+cursor: pointer;
+}

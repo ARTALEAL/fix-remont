@@ -17,3 +17,7 @@
 @import url(../blocks/header/__scroll-down/header__scroll-down.css);
 @import url(../blocks/header/__scroll-logo/header__scroll-logo.css);
 @import url(../blocks/header/__scroll-subtitle/header__scroll-subtitle.css);
+@import url(../blocks/header/__video-container/header__video-container.css);
+@import url(../blocks/header/__video-button-circle/header__video-button-circle.css);
+@import url(../blocks/header/__video-play-img/header__video-play-img.css);
+@import url(../blocks/header/__video-subtitle/header__video-subtitle.css);

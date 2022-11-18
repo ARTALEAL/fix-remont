@@ -1,0 +1,16 @@
+.header__video-button-circle {
+  background-image: url(../../../images/Oval.svg);
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__video-button-circle:hover .header__video-play-img {
+  transform: scale(1.2);
+}
+
