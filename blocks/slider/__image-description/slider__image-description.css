@@ -1,0 +1,10 @@
+.slider__image-description {
+  position: absolute;
+  max-width: 144px;
+  top: 0;
+  right: -162px;
+  font-family: 'MullerRegular';
+  font-size: 13px;
+  line-height: 154%;
+  color: #666666;
+}

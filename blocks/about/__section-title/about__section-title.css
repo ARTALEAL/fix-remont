@@ -1,0 +1,10 @@
+.about__section-title {
+  font-family: MullerMedium, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: -0.05px;
+  color: #000000;
+  max-width: 450px;
+  margin-top: 33px;
+  margin-bottom: 12px;
+}

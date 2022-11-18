@@ -21,3 +21,24 @@
 @import url(../blocks/header/__video-button-circle/header__video-button-circle.css);
 @import url(../blocks/header/__video-play-img/header__video-play-img.css);
 @import url(../blocks/header/__video-subtitle/header__video-subtitle.css);
+
+@import url(../blocks/main/main.css);
+
+/*About*/
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__section-title/about__section-title.css);
+@import url(../blocks/about/__section-paragrah/about__section-paragrah.css);
+@import url(../blocks/about/__section/about__section.css);
+@import url(../blocks/about/__section-worktime/about__section-worktime.css);
+@import url(../blocks/about/__section-worktime-title/about__section-worktime-title.css);
+@import url(../blocks/about/__section-worktime-paragraph/about__section-worktime-paragraph.css);
+
+/*slider*/
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__row/slider__row.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__image/slider__image.css);
+@import url(../blocks/slider/__image-description/slider__image-description.css);
