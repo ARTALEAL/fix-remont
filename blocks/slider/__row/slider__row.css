@@ -1,7 +1,6 @@
 .slider__row {
   position: relative;
   display: flex;
-  gap: 232px;
 }
 
 #slide1{

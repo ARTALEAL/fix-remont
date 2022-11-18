@@ -3,3 +3,7 @@
   width: 100%;
   font-family: MullerMedium, Arial, Helvetica, sans-serif;
 }
+
+body {
+  overflow-x: hidden;
+}
