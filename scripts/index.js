@@ -9,28 +9,33 @@ let step = slides[0].clientWidth;
 nextSlide.addEventListener('click', () => {
   slides.forEach(slider => {
     slider.setAttribute('style', `transform: translate3d(${state - step}px, 0, 0)`);
-    console.log(state);
-  })
+  });
+
   state = state - step;
 
-  if (state < 0) {
+  if (state == -step) {
     nextSlide.setAttribute('disabled', '');
     prevSlide.removeAttribute('disabled', '');
+  } else if(state == 0){
+    prevSlide.removeAttribute('disabled', '');
+    nextSlide.removeAttribute('disabled', '');
   }
 });
 
 prevSlide.addEventListener('click', () => {
   slides.forEach(slider => {
     slider.setAttribute('style', `transform: translate3d(${state + step}px, 0, 0)`);
-    console.log(state);
-  })
+  });
 
   state += step;
 
-  if (state > 0) {
+  if (state == step) {
     prevSlide.setAttribute('disabled', '');
-    nextSlide.setAttribute('disabled', '');
+    nextSlide.removeAttribute('disabled', '');
+  }else if(state == 0){
+    prevSlide.removeAttribute('disabled', '');
+    nextSlide.removeAttribute('disabled', '');
   }
-})
+});
 
 
