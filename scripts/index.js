@@ -39,4 +39,25 @@ prevSlide.addEventListener('click', () => {
   }
 });
 
+//Inputs check
+const numberLabel = document.querySelector('.phone_label');
+const phoneInput = document.querySelector('.subscribe__input_novalidate');
+
+console.log(numberLabel);
+console.log(phoneInput);
+
+phoneInput.addEventListener('keyup', ()=>{
+  if(phoneInput.value != ''){
+    numberLabel.classList.add('subscribe__input-label_active');
+  } else {
+    numberLabel.classList.remove('subscribe__input-label_active');
+  }
+})
+
+
+
+
+
+
+
 

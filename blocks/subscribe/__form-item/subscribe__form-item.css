@@ -1,0 +1,10 @@
+.subscribe__form-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0;
+}
+
+.subscribe__form-item:first-child {
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.subscribe__input_novalidate {
+  padding: 18px 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subscribe__input_novalidate:focus {
+  border-color: #F9572E;
+}
+
+.subscribe__input_novalidate:focus ~ label {
+  color: #666;
+  background-color: #fff;
+  top: -10px;
+}
+

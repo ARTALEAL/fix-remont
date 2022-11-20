@@ -1,0 +1,21 @@
+.subscribe__input-label {
+  position: absolute;
+  left: 24px;
+  top: 16px;
+  padding: 0 6px;
+  font-size: 18px;
+  line-height: 1.5;
+  pointer-events: none;
+  color: #666;
+  transition: .3s;
+  font-family: MullerRegular, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 133%;
+  color: #666666;
+}
+
+.subscribe__input-label_active {
+    color: #666;
+    background-color: #fff;
+    top: -10px;
+}

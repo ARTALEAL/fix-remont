@@ -1,0 +1,23 @@
+.subscribe__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  background: #f9572e;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 7px 15px rgb(249 87 46 / 60%);
+  transition: all .3s;
+  margin: 48px auto 0;
+}
+
+.subscribe__button:hover {
+  box-shadow: 0px 15px 20px rgba(249, 87, 46, 0.7);
+  background: #FF7B59;
+}

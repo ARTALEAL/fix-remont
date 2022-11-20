@@ -55,3 +55,11 @@
 @import url(../blocks/subscribe/__gift/subscribe__gift.css);
 @import url(../blocks/subscribe/__gift-icon/subscribe__gift-icon.css);
 @import url(../blocks/subscribe/__gift-text/subscribe__gift-text.css);
+@import url(../blocks/subscribe/__form/subscribe__form.css);
+@import url(../blocks/subscribe/__form-item/subscribe__form-item.css);
+@import url(../blocks/subscribe/__input/subscribe__input.css);
+@import url(../blocks/subscribe/__input/_novalidate/subscribe__input_novalidate.css);
+@import url(../blocks/subscribe/__input-label/subscribe__input-label.css);
+@import url(../blocks/subscribe/__button/subscribe__button.css);
+@import url(../blocks/subscribe/__required-input/subscribe__required-input.css);
+@import url(../blocks/subscribe/__policy-link/subscribe__policy-link.css);

@@ -1,0 +1,11 @@
+.subscribe__policy-link {
+  font-family: MullerRegular, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 154%;
+  color: #F9572E;
+  text-decoration: none;
+}
+
+.subscribe__policy-link:visited {
+  text-decoration: none;
+}
