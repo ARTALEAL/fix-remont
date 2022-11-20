@@ -1,0 +1,7 @@
+.subscribe__wrapper {
+  position: relative;
+  max-width: 984px;
+  padding: 30px;
+  margin: 0 auto;
+  border: 4px solid #63d2c1;
+}

@@ -1,3 +1,4 @@
+// Slider
 const slider = document.querySelector('.slider__row');
 const slides = slider.querySelectorAll('.slider__item');
 const prevSlide = slider.querySelector('.slider__button_prev');
@@ -16,7 +17,7 @@ nextSlide.addEventListener('click', () => {
   if (state == -step) {
     nextSlide.setAttribute('disabled', '');
     prevSlide.removeAttribute('disabled', '');
-  } else if(state == 0){
+  } else if (state == 0) {
     prevSlide.removeAttribute('disabled', '');
     nextSlide.removeAttribute('disabled', '');
   }
@@ -32,7 +33,7 @@ prevSlide.addEventListener('click', () => {
   if (state == step) {
     prevSlide.setAttribute('disabled', '');
     nextSlide.removeAttribute('disabled', '');
-  }else if(state == 0){
+  } else if (state == 0) {
     prevSlide.removeAttribute('disabled', '');
     nextSlide.removeAttribute('disabled', '');
   }

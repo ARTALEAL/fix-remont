@@ -36,7 +36,7 @@
 @import url(../blocks/about/__section-worktime-title/about__section-worktime-title.css);
 @import url(../blocks/about/__section-worktime-paragraph/about__section-worktime-paragraph.css);
 
-/*slider*/
+/*Slider*/
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__row/slider__row.css);
 @import url(../blocks/slider/__item/slider__item.css);
@@ -47,3 +47,11 @@
 @import url(../blocks/slider/__button/_prev/slider__button_prev.css);
 @import url(../blocks/slider/__button/_next/slider__button_next.css);
 @import url(../blocks/slider/__button-img/slider__button-img.css);
+
+/*Subscribe*/
+@import url(../blocks/subscribe/subscribe.css);
+@import url(../blocks/subscribe/__wrapper/subscribe__wrapper.css);
+@import url(../blocks/subscribe/__main-title/subscribe__main-title.css);
+@import url(../blocks/subscribe/__gift/subscribe__gift.css);
+@import url(../blocks/subscribe/__gift-icon/subscribe__gift-icon.css);
+@import url(../blocks/subscribe/__gift-text/subscribe__gift-text.css);

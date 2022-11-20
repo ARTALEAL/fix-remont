@@ -1,0 +1,13 @@
+.subscribe__main-title {
+  position: relative;
+  top: -55px;
+  max-width: 660px;
+  padding: 0 20px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  font-family: 'MullerMedium';
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.2px;
+}
