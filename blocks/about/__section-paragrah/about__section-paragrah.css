@@ -5,3 +5,9 @@
   color: #666666;
   margin: 0;
 }
+
+@media screen and (max-width:1020px) {
+  .about__section-paragrah {
+    font-size: 14px;
+  }
+}

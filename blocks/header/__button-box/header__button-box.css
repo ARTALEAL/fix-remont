@@ -4,3 +4,16 @@
   gap: 31px;
   margin-top: 45px;
 }
+
+@media screen and (max-width:922px) {
+  .header__button-box{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width:679px) {
+  .header__button-box {
+    align-items: center;
+  }
+}

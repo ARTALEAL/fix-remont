@@ -8,3 +8,9 @@
   margin-top: 33px;
   margin-bottom: 12px;
 }
+
+@media screen and (max-width:1020px) {
+  .about__section-title {
+    font-size: 20px;
+  }
+}

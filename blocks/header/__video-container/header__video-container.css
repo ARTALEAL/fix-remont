@@ -1,9 +1,15 @@
 .header__video-container {
   background-image: url(../../../images/header-video.png);
+  background-size: cover;
   width: 50%;
-  max-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media screen and (max-width:679px) {
+  .header__video-container {
+    display: none;
+  }
 }

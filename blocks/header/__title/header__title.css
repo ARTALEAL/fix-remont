@@ -5,4 +5,18 @@
   line-height: 100%;
   letter-spacing: -0.5px;
   margin-bottom: 27px;
+  margin: 255px 0 0;
+}
+
+@media screen and (max-width:1200px) {
+  .header__title {
+    font-size: 40px;
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width:679px) {
+  .header__title {
+    margin: 120px auto;
+  }
 }

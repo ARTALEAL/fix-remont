@@ -4,3 +4,15 @@
   right: 85px;
   z-index: 1;
 }
+
+@media screen and (max-width:1020px) {
+  .slider__buttons {
+    bottom: -40px;
+  }
+}
+
+@media screen and (max-width:679px) {
+  .slider__buttons {
+    right: 0;
+  }
+}

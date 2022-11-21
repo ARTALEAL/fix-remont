@@ -8,3 +8,14 @@
   line-height: 154%;
   color: #666666;
 }
+
+@media screen and (max-width:1020px) {
+  .slider__image-description {
+    position: relative;
+    margin: auto;
+    max-width: 100vw;
+    width: 100%;
+    text-align: center;
+    right: 0;
+  }
+}

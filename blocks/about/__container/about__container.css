@@ -5,3 +5,10 @@
   grid-template-rows: 1fr 1fr;
   margin-top: 63px;
 }
+
+@media screen and (max-width:679px) {
+  .about__container {
+    gap: 40px;
+    grid-template-columns: 1fr;
+  }
+}

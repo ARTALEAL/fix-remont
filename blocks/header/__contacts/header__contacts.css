@@ -5,10 +5,25 @@
   font-size: 21px;
   line-height: 25px;
   top: 61px;
-  right: 110px;
+  right: 90px;
   z-index: 1;
+  color: #000;
 }
 
 .header__contacts:visited {
   color: black;
+}
+
+@media screen and (max-width:1200px) {
+  .header__contacts {
+    top: 68px;
+    right: 48px;
+  }
+}
+
+@media screen and (max-width:679px) {
+  .header__contacts {
+    top: 20px;
+    right: 20px;
+  }
 }

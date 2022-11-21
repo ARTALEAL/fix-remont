@@ -4,6 +4,12 @@
   transition: all 0.3s;
 }
 
-#slide1{
+#slide1 {
   margin: 0 0 0 -984px;
+}
+
+@media screen and (max-width:1020px) {
+  #slide1 {
+    margin: 0 0 0 -96vw;
+  }
 }

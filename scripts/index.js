@@ -12,6 +12,7 @@ nextSlide.addEventListener('click', () => {
     slider.setAttribute('style', `transform: translate3d(${state - step}px, 0, 0)`);
   });
 
+
   state = state - step;
 
   if (state == -step) {

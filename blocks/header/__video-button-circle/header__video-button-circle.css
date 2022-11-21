@@ -1,7 +1,9 @@
 .header__video-button-circle {
   background-image: url(../../../images/Oval.svg);
-  width: 250px;
-  height: 250px;
+  max-width: 250px;
+  width: 100%;
+  max-height: 250px;
+  height: 100%;
   box-sizing: border-box;
   background-size: contain;
   display: flex;

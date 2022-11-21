@@ -8,3 +8,9 @@
   margin-top: 39px;
   margin-bottom: 7px;
 }
+
+@media screen and (max-width:1020px) {
+  .about__section-worktime-title {
+    font-size: 20px;
+  }
+}

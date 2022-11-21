@@ -1,7 +1,9 @@
 .header {
-  max-width: 1880px;
   width: 100%;
   font-family: MullerRegular, Verdana, Tahoma, sans-serif;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 html {

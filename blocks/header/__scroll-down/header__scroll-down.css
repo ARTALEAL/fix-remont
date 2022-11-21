@@ -6,8 +6,9 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  margin-top: 258px;
   gap: 12px;
+  position: absolute;
+  bottom: 48px;
 }
 
 .header__scroll-down:hover .header__scroll-logo {

@@ -1,5 +1,11 @@
 .about {
-  max-width: calc(1880px - (2*450px));
+  max-width: 984px;
   margin: auto;
-  margin-top: 166px;
+  padding-top: 166px;
+}
+
+@media screen and (max-width:679px) {
+  .about {
+    padding-top: 40px;
+  }
 }

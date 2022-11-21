@@ -1,7 +1,6 @@
 .page {
-  max-width: 1880px;
-  width: 100%;
   font-family: MullerMedium, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 body {

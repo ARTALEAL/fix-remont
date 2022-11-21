@@ -11,3 +11,15 @@
   line-height: 125%;
   letter-spacing: -0.2px;
 }
+
+@media screen and (max-width:488px) {
+  .subscribe__main-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width:370px) {
+  .subscribe__main-title {
+    font-size: 16px;
+  }
+}
