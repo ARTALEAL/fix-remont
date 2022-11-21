@@ -1,0 +1,8 @@
+.footer__contacts {
+  max-width: calc(1880px - (2*80px));
+  margin: auto;
+  margin-top: 76px;
+  padding-bottom: 78px;
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 32px;
+}

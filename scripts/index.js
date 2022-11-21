@@ -46,14 +46,49 @@ const phoneInput = document.querySelector('.subscribe__input_novalidate');
 console.log(numberLabel);
 console.log(phoneInput);
 
-phoneInput.addEventListener('keyup', ()=>{
-  if(phoneInput.value != ''){
+phoneInput.addEventListener('keyup', () => {
+  if (phoneInput.value != '') {
     numberLabel.classList.add('subscribe__input-label_active');
   } else {
     numberLabel.classList.remove('subscribe__input-label_active');
   }
 })
 
+
+//subscribe
+const formWrapper = document.querySelector('.subscribe__wrapper');
+const buttonSubscribe = formWrapper.querySelector('.subscribe__button');
+const subscribeForm = formWrapper.querySelector('.subscribe__form');
+const template =
+  `<h2 class="subscribe__main-title"> Узнайте о запуске сервиса первым </h2>
+    <div class="subscribe__confirm">
+      <img src="./images/subscribe-ok.svg" alt="вы подписаны">
+        <p class="subscribe__gift-text"> Спасибо! Мы будем держать вас в курсе обновлений </p>
+    </div>`;
+
+function isFormValid(form) {
+  const inputs = form.querySelectorAll('.input');
+  console.log(inputs);
+  let valid = true;
+  inputs.forEach((input) => {
+    if (input.type !== 'submit' && input.type !== 'button') {
+      if (!input.checkValidity()) {
+        valid = false;
+      }
+    }
+  });
+  return valid
+}
+
+isFormValid(subscribeForm);
+
+buttonSubscribe.addEventListener('click', (evt) => {
+  evt.preventDefault();
+  if (isFormValid(subscribeForm)) {
+    formWrapper.textContent = '';
+    formWrapper.insertAdjacentHTML('beforeend', template);
+  }
+})
 
 
 

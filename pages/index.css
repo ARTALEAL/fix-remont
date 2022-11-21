@@ -63,3 +63,17 @@
 @import url(../blocks/subscribe/__button/subscribe__button.css);
 @import url(../blocks/subscribe/__required-input/subscribe__required-input.css);
 @import url(../blocks/subscribe/__policy-link/subscribe__policy-link.css);
+@import url(../blocks/subscribe/__confirm/subscribe__confirm.css);
+@import url(../blocks/subscribe/__confirm-image/subscribe__confirm-image.css);
+
+/*Footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contacts-container/footer__contacts-container.css);
+@import url(../blocks/footer/__tel/footer__tel.css);
+@import url(../blocks/footer/__tel-logo/footer__tel-logo.css);
+@import url(../blocks/footer/__adress-title/footer__adress-title.css);
+@import url(../blocks/footer/__adress-subtitle/footer__adress-subtitle.css);

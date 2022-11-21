@@ -1,0 +1,7 @@
+.footer__contacts-container {
+  max-width: calc(1880px - (2 * 500px));
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
