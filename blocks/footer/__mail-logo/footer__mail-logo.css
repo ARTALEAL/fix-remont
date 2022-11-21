@@ -1,0 +1,11 @@
+.footer__mail-logo::before {
+  content: url(../../../images/mail-logo.svg);
+  margin-right: 9px;
+  width: 30px;
+  height: 20px;
+  transition: all .3s;
+}
+
+.footer__mail-logo:hover ~ .footer__mail {
+  color: #f9572E;
+}

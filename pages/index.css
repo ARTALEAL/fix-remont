@@ -69,6 +69,7 @@
 /*Footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-image/footer__social-image.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
@@ -77,3 +78,7 @@
 @import url(../blocks/footer/__tel-logo/footer__tel-logo.css);
 @import url(../blocks/footer/__adress-title/footer__adress-title.css);
 @import url(../blocks/footer/__adress-subtitle/footer__adress-subtitle.css);
+@import url(../blocks/footer/__mail/footer__mail.css);
+@import url(../blocks/footer/__mail/_link/footer__mail_link.css);
+@import url(../blocks/footer/__mail-logo/footer__mail-logo.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
