@@ -3,4 +3,8 @@
   font-family: MullerMedium, Arial, Helvetica, sans-serif;
 }
 
-
+@media screen and (max-width:376px) {
+  .header__scroll-subtitle {
+    display: none;
+  }
+}
