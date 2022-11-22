@@ -27,3 +27,9 @@
     right: 20px;
   }
 }
+
+@media screen and (max-width:515px) {
+  .header__contacts {
+    display: none;
+  }
+}

@@ -7,7 +7,7 @@
   max-width: 298px;
 }
 
-@media screen and (max-width:364px) {
+@media screen and (max-width:380px) {
   .subscribe__gift-text {
     font-size: 9px;
   }

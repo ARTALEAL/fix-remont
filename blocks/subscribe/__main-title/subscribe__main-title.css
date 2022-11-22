@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width:370px) {
+@media screen and (max-width:380px) {
   .subscribe__main-title {
     font-size: 16px;
   }

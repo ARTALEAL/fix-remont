@@ -4,3 +4,9 @@
   max-width: 500px;
   margin: 56px auto 0;
 }
+
+@media screen and (max-width:380px) {
+  .subscribe__form {
+    margin: 20px auto 0;
+  }
+}

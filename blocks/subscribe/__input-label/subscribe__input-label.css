@@ -19,3 +19,9 @@
     background-color: #fff;
     top: -10px;
 }
+
+.subscribe__input-label_invalid {
+  color: #F9572E;
+  background-color: #fff;
+  top: -10px;
+}

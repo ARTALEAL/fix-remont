@@ -6,6 +6,7 @@
 
 .subscribe__input_novalidate:focus {
   border-color: #F9572E;
+  outline: none;
 }
 
 .subscribe__input_novalidate:focus ~ label {

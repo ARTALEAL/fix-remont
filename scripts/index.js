@@ -43,9 +43,10 @@ prevSlide.addEventListener('click', () => {
 //Inputs check
 const numberLabel = document.querySelector('.phone_label');
 const phoneInput = document.querySelector('.subscribe__input_novalidate');
-
-console.log(numberLabel);
-console.log(phoneInput);
+const nameInput = document.querySelector('.name_input');
+const nameLabel = document.querySelector('.name_label');
+const mailInput = document.querySelector('.mail_input');
+const mailLabel = document.querySelector('.mail_label');
 
 phoneInput.addEventListener('keyup', () => {
   if (phoneInput.value != '') {
@@ -53,8 +54,23 @@ phoneInput.addEventListener('keyup', () => {
   } else {
     numberLabel.classList.remove('subscribe__input-label_active');
   }
-})
+});
 
+nameInput.addEventListener('keyup', () => {
+  if (nameInput.value != '') {
+    nameLabel.classList.add('subscribe__input-label_invalid');
+  } else {
+    nameLabel.classList.remove('subscribe__input-label_invalid');
+  }
+});
+
+mailInput.addEventListener('keyup', () => {
+  if (mailInput.value != '') {
+    mailLabel.classList.add('subscribe__input-label_invalid');
+  } else {
+    mailLabel.classList.remove('subscribe__input-label_invalid');
+  }
+});
 
 //subscribe
 const formWrapper = document.querySelector('.subscribe__wrapper');
@@ -69,7 +85,6 @@ const template =
 
 function isFormValid(form) {
   const inputs = form.querySelectorAll('.input');
-  console.log(inputs);
   let valid = true;
   inputs.forEach((input) => {
     if (input.type !== 'submit' && input.type !== 'button') {
@@ -89,11 +104,5 @@ buttonSubscribe.addEventListener('click', (evt) => {
     formWrapper.textContent = '';
     formWrapper.insertAdjacentHTML('beforeend', template);
   }
-})
-
-
-
-
-
-
+});
 
