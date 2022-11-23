@@ -8,10 +8,15 @@
   right: 90px;
   z-index: 1;
   color: #000;
+  transition: all .3s;
 }
 
 .header__contacts:visited {
   color: black;
+}
+
+.header__contacts:hover {
+  color: #F9572E;
 }
 
 @media screen and (max-width:1200px) {
