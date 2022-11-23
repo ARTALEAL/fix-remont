@@ -7,7 +7,10 @@ const nextSlide = slider.querySelector('.slider__button_next');
 let state = 0;
 let step = slides[0].clientWidth;
 
+const checkSlide = () => slides[0].clientWidth;
+
 nextSlide.addEventListener('click', () => {
+  step = checkSlide();
   slides.forEach(slider => {
     slider.setAttribute('style', `transform: translate3d(${state - step}px, 0, 0)`);
   });
@@ -25,6 +28,7 @@ nextSlide.addEventListener('click', () => {
 });
 
 prevSlide.addEventListener('click', () => {
+  step = checkSlide();
   slides.forEach(slider => {
     slider.setAttribute('style', `transform: translate3d(${state + step}px, 0, 0)`);
   });

@@ -1,5 +1,6 @@
 .header__scroll-logo {
   width: 41px;
   height: 30px;
+  transition: all .3s;
 }
 
