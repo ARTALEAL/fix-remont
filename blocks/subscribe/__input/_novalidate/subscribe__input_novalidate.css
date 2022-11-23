@@ -5,7 +5,7 @@
 }
 
 .subscribe__input_novalidate:focus {
-  border-color: #F9572E;
+  border: 1px solid #f9572e;
   outline: none;
 }
 
@@ -15,3 +15,7 @@
   top: -10px;
 }
 
+.subscribe__input_novalidate:-webkit-autofill,
+.subscribe__input_novalidate:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}

@@ -14,16 +14,19 @@
   box-shadow: inset 0 0 0 1px #F9572E;
 }
 
-.subscribe__input:focus ~ label {
+.subscribe__input:focus~label {
   color: #F9572E;
   background-color: #fff;
   top: -10px;
 }
 
-.subscribe__input:valid ~ label {
+.subscribe__input:valid~label {
   color: #666;
   background-color: #fff;
   top: -10px;
 }
 
-
+.subscribe__input:-webkit-autofill,
+.subscribe__input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
