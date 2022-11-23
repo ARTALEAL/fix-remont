@@ -5,7 +5,7 @@ const prevSlide = slider.querySelector('.slider__button_prev');
 const nextSlide = slider.querySelector('.slider__button_next');
 
 let state = 0;
-// let step = slides[0].clientWidth;
+let step = slides[0].clientWidth;
 
 const checkSlide = () => slides[0].clientWidth;
 
